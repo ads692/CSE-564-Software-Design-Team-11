@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JARVIS</Machine>
+    <WindowsUser>Aravind</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>52d26414-dda0-4549-aa82-450c96c89311</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\bin\Debug\CarpenterApp.exe">
+      <PackagePath>CarpenterApp.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\arrow.png">
+      <PackagePath>Assets\arrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\arrowleft.png">
+      <PackagePath>Assets\arrowleft.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\arrowright.png">
+      <PackagePath>Assets\arrowright.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\cube-pyramid.jpg">
+      <PackagePath>Assets\cube-pyramid.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\Cube.JPG">
+      <PackagePath>Assets\Cube.JPG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\icon.JPG">
+      <PackagePath>Assets\icon.JPG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\plank.jpg">
+      <PackagePath>Assets\plank.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\plankCut1.jpg">
+      <PackagePath>Assets\plankCut1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\plankCut2.jpg">
+      <PackagePath>Assets\plankCut2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\s3.jpg">
+      <PackagePath>Assets\s3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\s4.jpg">
+      <PackagePath>Assets\s4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\s7.jpg">
+      <PackagePath>Assets\s7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\s8.jpg">
+      <PackagePath>Assets\s8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\Tri-pyramid.jpg">
+      <PackagePath>Assets\Tri-pyramid.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\wood.jpg">
+      <PackagePath>Assets\wood.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\Cube.gif">
+      <PackagePath>Assets\Cube.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\Assets\pyramid.gif">
+      <PackagePath>Assets\pyramid.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\bin\Debug\CarpenterApp.xr.xml">
+      <PackagePath>CarpenterApp.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\bin\Debug\3dPyradmidPage.xbf">
+      <PackagePath>3dPyradmidPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\bin\Debug\CubeSelectionPage.xbf">
+      <PackagePath>CubeSelectionPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\bin\Debug\CubeViewer.xbf">
+      <PackagePath>CubeViewer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\bin\Debug\InputPage.xbf">
+      <PackagePath>InputPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\bin\Debug\PyramidResultPage.xbf">
+      <PackagePath>PyramidResultPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\bin\Debug\PyramidSelectionPage.xbf">
+      <PackagePath>PyramidSelectionPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\bin\Debug\ResultPage.xbf">
+      <PackagePath>ResultPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aravind\Documents\Visual Studio 2015\Projects\CarpenterApp\CarpenterApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

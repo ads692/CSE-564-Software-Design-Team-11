@@ -1,0 +1,68 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CarpenterApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ViewModel="using:CarpenterApp.ViewModel"
+    x:Class="CarpenterApp.InputPage"
+    mc:Ignorable="d">
+
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="1" Background="#FF6161C7">
+            <Button x:ConnectionId='1' x:Name="Calculate" Content="Calculate" HorizontalAlignment="Left" Height="55" Margin="49,630,0,0" VerticalAlignment="Top" Width="300"                             />
+            <TextBox x:ConnectionId='2' x:Name="widthInput" HorizontalAlignment="Left" Height="43" Margin="52,436,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"                           />
+            <TextBox x:ConnectionId='3' x:Name="breadthInput" HorizontalAlignment="Left" Height="43" Margin="52,335,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="294"                             />
+            <TextBox x:ConnectionId='4' x:Name="lengthInput" HorizontalAlignment="Left" Height="43" Margin="52,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"                            />
+            <TextBlock x:Name="length" HorizontalAlignment="Left" Height="32" Margin="52,200,0,0" TextWrapping="Wrap" Text="Length" VerticalAlignment="Top" TextAlignment="Left" Width="130" FontSize="21.333"/>
+            <TextBlock x:Name="breadth" HorizontalAlignment="Left" Height="32" Margin="52,303,0,0" TextWrapping="Wrap" Text="Breadth" VerticalAlignment="Top" TextAlignment="Left" Width="130" FontSize="21.333"/>
+            <TextBlock x:Name="width" HorizontalAlignment="Left" Height="32" Margin="52,404,0,0" TextWrapping="Wrap" Text="Width" VerticalAlignment="Top" TextAlignment="Left" Width="130" FontSize="21.333"/>
+            <Button x:ConnectionId='5' x:Name="backButton" Content="^" HorizontalAlignment="Left" Height="80" Margin="7,7,0,0" VerticalAlignment="Top" Width="113" Background="#FF6161C7" Foreground="#FFFDFDFD" FontSize="64"                         RequestedTheme="Dark" FontFamily="Wingdings 3" BorderBrush="{x:Null}"/>
+            <TextBlock x:Name="warningText" HorizontalAlignment="Left" Visibility="Collapsed" Height="37" Margin="52,158,0,0" TextWrapping="Wrap" Text="*** All three items should be filled correctly" VerticalAlignment="Top" Width="294" FontSize="16" Foreground="#FFE63737" FontWeight="Bold"/>
+            <TextBlock x:ConnectionId='6' x:Name="width_Copy" HorizontalAlignment="Left" Height="32" Margin="52,510,0,0" TextWrapping="Wrap" Text="Width" VerticalAlignment="Top" TextAlignment="Left" Width="130" FontSize="21.333"                                               />
+            <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="52,542,0,0" VerticalAlignment="Top" Width="120">
+                <ComboBoxItem Content="Meters" IsSelected="True"/>
+                <ComboBoxItem Content="Feet"/>
+                <ComboBoxItem Content="Inches" />
+                <ComboBoxItem Content="Yards"/>
+            </ComboBox>
+
+        </Grid>
+        <Image x:Name="image" Source="ms-appx:/Assets/wood.jpg" HorizontalAlignment="Left" Stretch="Fill" Height="447" Margin="95,165,0,0"  VerticalAlignment="Top" Width="754" IsHitTestVisible="False" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" ManipulationMode="None"/>
+        <TextBlock x:Name="breadthText" HorizontalAlignment="Left" Height="75" Visibility="Collapsed"  Margin="184,563.211,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="249" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Foreground="#FF060606" FontSize="32" FontWeight="Bold" TextAlignment="Center">
+            <TextBlock.RenderTransform>
+                <CompositeTransform SkewX="2.147" TranslateX="-1.406" Rotation="7.214"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock x:Name="lengthText" HorizontalAlignment="Left" Visibility="Collapsed" TextAlignment="Center" Height="92" Margin="637.451,382.383,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="220" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" UseLayoutRounding="False" d:LayoutRounding="Auto" Foreground="#FF060606" FontSize="32" FontWeight="Bold">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="-44.183"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock x:Name="widthText" HorizontalAlignment="Left" Visibility="Collapsed" TextAlignment="Right" Height="59.781" Margin="-12.819,452.267,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="174.734" RenderTransformOrigin="0.5,0.5" Foreground="#FF0C0B0B" FontSize="32" FontWeight="Bold" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="-2.407"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <Image x:Name="lengthimage" HorizontalAlignment="Left" Height="26" Visibility="Collapsed" Margin="481.052,365.348,0,0" VerticalAlignment="Top" Width="455.5" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" UseLayoutRounding="False" d:LayoutRounding="Auto" Source="Assets/arrow.png" Stretch="Fill">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="-43.8"/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="widthimage" HorizontalAlignment="Left" Height="26" Visibility="Collapsed" Margin="207.484,540.005,0,0" VerticalAlignment="Top" Width="229.411" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Source="Assets/arrow.png" Stretch="Fill">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="6.464"/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="breadthimage" HorizontalAlignment="Left" Height="26" Visibility="Collapsed" Margin="101.877,454.893,0,0" VerticalAlignment="Top" Width="143.374" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Source="Assets/arrow.png" Stretch="Fill">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="87.11"/>
+            </Image.RenderTransform>
+        </Image>
+    </Grid>
+</Page>
+

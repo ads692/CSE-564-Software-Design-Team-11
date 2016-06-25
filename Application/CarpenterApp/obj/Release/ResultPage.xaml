@@ -1,0 +1,66 @@
+﻿<Page
+    x:Class="CarpenterApp.ResultPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CarpenterApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="7*"/>
+                <RowDefinition Height="3*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="1">
+                    <Image x:Name="plank1" HorizontalAlignment="Right" Visibility="Collapsed" Height="389" VerticalAlignment="Bottom" Width="211" Margin="139,0,128,35" Source="Assets/plank.jpg"/>
+                    <Image x:Name="lengthimage" HorizontalAlignment="Left" Visibility="Collapsed" Height="43.989"  VerticalAlignment="Top" Width="455" RenderTransformOrigin="0.477,-1.862" Source="Assets/arrow.png" Stretch="Fill" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="-9.541,328.046,-80.459,0">
+                        <Image.RenderTransform>
+                            <CompositeTransform Rotation="-89.706" TranslateX="-51.001" TranslateY="71.565"/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <TextBlock x:Name="answer1" HorizontalAlignment="Left" Height="83" Margin="261,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="94" Foreground="#FF111111" FontSize="16"/>
+                    <TextBlock x:Name="pieces1" HorizontalAlignment="Center" Visibility="Collapsed" TextAlignment="Center" Height="99"  TextWrapping="Wrap" Text="4  pieces of" VerticalAlignment="Top" Width="246" Foreground="#FF6161C7" FontSize="42.667" FontWeight="Bold" FontFamily="Adobe Gothic Std B"/>
+                    <TextBlock x:Name="pieces11" HorizontalAlignment="Center" Visibility="Collapsed" TextAlignment="Center" Height="99"  TextWrapping="Wrap" Text="16  pieces of" VerticalAlignment="Top" Width="246" Foreground="#FF6161C7" FontSize="42.667" FontWeight="Bold" FontFamily="Adobe Gothic Std B"/>
+                </Grid>
+                <Grid Grid.Column="0">
+                    <Image x:Name="plank2" HorizontalAlignment="Right" Visibility="Collapsed" Height="389" VerticalAlignment="Bottom" Width="211" Margin="139,0,128,35" Source="Assets/plank.jpg"/>
+                    <Image x:Name="lengthimage1" HorizontalAlignment="Left" Visibility="Collapsed" Height="47.979" Margin="29.176,280.353,-120.176,0" VerticalAlignment="Top" Width="455" RenderTransformOrigin="0.5,0.5" Source="Assets/arrow.png" Stretch="Fill" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                        <Image.RenderTransform>
+                            <CompositeTransform Rotation="-89.706"/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <TextBlock x:Name="answer2" HorizontalAlignment="Left" Height="83" Margin="260,271,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="94" Foreground="#FF080808" FontSize="16"/>
+                    <TextBlock x:Name="pieces2" HorizontalAlignment="Center" Visibility="Collapsed" TextAlignment="Center" Height="99"  TextWrapping="Wrap" Text="4  pieces of" VerticalAlignment="Top" Width="246" Foreground="#FF6161C7" FontSize="42.667" FontWeight="Bold" FontFamily="Adobe Gothic Std B"/>
+                </Grid>
+                <Grid Grid.Column="2">
+                    <Image x:Name="plank3" HorizontalAlignment="Right" Visibility="Collapsed" Height="389" VerticalAlignment="Bottom" Width="211" Margin="139,0,128,35" Source="Assets/plank.jpg"/>
+                    <Image x:Name="lengthimage2" HorizontalAlignment="Left" Visibility="Collapsed" Height="40.01" Margin="33.147,289.204,-124.147,0" VerticalAlignment="Top" Width="455" RenderTransformOrigin="0.5,0.5" Source="Assets/arrow.png" Stretch="Fill" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                        <Image.RenderTransform>
+                            <CompositeTransform Rotation="-89.706"/>
+                        </Image.RenderTransform>
+                    </Image>
+                    <TextBlock x:Name="answer3" HorizontalAlignment="Left" Height="83" Margin="270,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="94" Foreground="#FF0A0A0A" FontSize="16"/>
+                    <TextBlock x:Name="pieces3" HorizontalAlignment="Center" Visibility="Collapsed" TextAlignment="Center" Height="99"  TextWrapping="Wrap" Text="4  pieces of" VerticalAlignment="Top" Width="246" Foreground="#FF6161C7" FontSize="42.667" FontWeight="Bold" FontFamily="Adobe Gothic Std B"/>
+                </Grid>
+            </Grid>
+            <TextBlock x:Name="volumetext" HorizontalAlignment="Center" Height="108"  Grid.Row="1" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Width="786" Foreground="#FF6161C7" FontSize="48"/>
+        </Grid>
+        <Grid Grid.Column="1" Background="#FF6161C7">
+            <Button x:ConnectionId='1' x:Name="backButton" Content="^" HorizontalAlignment="Left" Height="80" Margin="7,7,0,0" VerticalAlignment="Top" Width="113" Background="#FF6161C7" Foreground="#FFFDFDFD" FontSize="64"                         RequestedTheme="Dark" FontFamily="Wingdings 3" BorderBrush="{x:Null}"/>
+            <Button x:ConnectionId='2' x:Name="button" Content="View Cube"  HorizontalAlignment="Center" Height="157"  VerticalAlignment="Center" Width="222" FontWeight="Bold" FontSize="26.667"                    />
+        </Grid>
+    </Grid>
+</Page>
+
